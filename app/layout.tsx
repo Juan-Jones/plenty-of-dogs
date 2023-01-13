@@ -1,6 +1,5 @@
 import '@/styles/globals.css';
 import React from 'react';
-import AddressBar from '@/ui/AddressBar';
 import GlobalNav from './GlobalNav';
 
 export default function RootLayout({
@@ -11,6 +10,14 @@ export default function RootLayout({
   return (
     <html>
       <head>
+      <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png/"/>
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png/"/>
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+<link rel="manifest" href="/site.webmanifest"/>
         <title>Pupster App</title>
       </head>
       <body className="">

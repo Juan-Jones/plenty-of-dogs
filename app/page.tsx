@@ -1,8 +1,4 @@
-import { demos } from '@/lib/demos';
-import Link from 'next/link';
-
 export default function Page() {
-  const image = '/dog.jpg';
   return (
     <>
      <div className="jumbotron h-96 grid content-center text-white font-bold text-center p-4" style={{ backgroundImage: `url('/dog.jpg')`, backgroundSize: 'cover',
